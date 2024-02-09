@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "title": "Kafka on the Shore",
+        "author": "Haruki Murakami",
+        "published": "September 12, 2002",
+        "genre": "Magical Realism",
+        "about": "Kafka on the Shore, a tour de force of metaphysical reality, is powered by two remarkable characters: a teenage boy, Kafka Tamura, who runs away from home either to escape a gruesome oedipal prophecy or to search for his long-missing mother and sister; and an aging simpleton called Nakata, who never recovered from a wartime affliction and now is drawn toward Kafka for reasons that, like the most basic activities of daily life, he cannot fathom. ",
+        "pic": "/images/kafka.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "published": "January 1, 1866",
+        "genre": "Philosophy",
+        "about": "Raskolnikov, a destitute and desperate former student, wanders through the slums of St Petersburg and commits a random murder without remorse or regret. He imagines himself to be a great man, a Napoleon: acting for a higher purpose beyond conventional moral law. But as he embarks on a dangerous game of cat and mouse with a suspicious police investigator, Raskolnikov is pursued by the growing voice of his conscience and finds the noose of his own guilt tightening around his neck.",
+        "pic": "./images/Crimeandpunishmentcover.png"
+    },
+    {
+        "id": 3,
+        "title": "Piranesi",
+        "author": "Susanna Clarke",
+        "published": "September 15, 2020",
+        "genre": "Fantasy",
+        "about": "Piranesi’s house is no ordinary building: its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.",
+        "pic": "./images/piranesi-cover.jpeg"
+
+    },
+    {
+        "id": 4,
+        "title": "Eleanor Oliphant is Completely Fine",
+        "author": "Gail Honeyman",
+        "published": "May 9, 2017",
+        "genre": "Fiction",
+        "about": "Meet Eleanor Oliphant: She struggles with appropriate social skills and tends to say exactly what she’s thinking. Nothing is missing in her carefully timetabled life of avoiding social interactions, where weekends are punctuated by frozen pizza, vodka, and phone chats with Mummy.",
+        "pic": "./images/eleanor-cover.jpg"
+
+    },
+    {
+        "id": 5,
+        "title": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "published": "September 13, 2011",
+        "genre": "Fantasy",
+        "about": "The circus arrives without warning. No announcements precede it. It is simply there, when yesterday it was not. Within the black-and-white striped canvas tents is an utterly unique experience full of breathtaking amazements. It is called Le Cirque des Rêves, and it is only open at night.",
+        "pic": "./images/night-cover.jpg"
+
+    },
+    {
+        "id": 6,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "published": "June 20, 1890",
+        "genre": "Gothic Fiction",
+        "about": "Dorian Gray is a young man.. or is he?",
+        "pic": "./images/dorian-cover.jpg"
+    },
+    {
+        "id": 7,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published": "April 10, 1925",
+        "genre": "American Fiction",
+        "about": "The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career. This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story is of the fabulously wealthy Jay Gatsby and his new love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted “gin was the national drink.",
+        "pic": "./images/gatsby-cover.png"
+    },
+    {
+        "id": 8,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "published": "July 16, 1951",
+        "genre": "American Fiction",
+        "about": "The hero-narrator of The Catcher in the Rye is an ancient child of sixteen, a native New Yorker named Holden Caulfield. Through circumstances that tend to preclude adult, secondhand description, he leaves his prep school in Pennsylvania and goes underground in New York City for three days.",
+        "pic": "./images/catcher-cover.jpeg"
+    }
+    
+
+]
