@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Kafka on the Shore",
+        "title": "KAFKA ON THE SHORE",
         "author": "Haruki Murakami",
         "published": "September 12, 2002",
         "genre": "Magical Realism",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "title": "Crime and Punishment",
+        "title": "CRIME AND PUNISHMENT",
         "author": "Fyodor Dostoevsky",
         "published": "January 1, 1866",
         "genre": "Philosophy",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "title": "Piranesi",
+        "title": "PIRANESI",
         "author": "Susanna Clarke",
         "published": "September 15, 2020",
         "genre": "Fantasy",
@@ -29,7 +29,7 @@
     },
     {
         "id": 4,
-        "title": "Eleanor Oliphant is Completely Fine",
+        "title": "ELEANOR OLIPHANT IS COMPLETELY FINE",
         "author": "Gail Honeyman",
         "published": "May 9, 2017",
         "genre": "Fiction",
@@ -39,7 +39,7 @@
     },
     {
         "id": 5,
-        "title": "The Night Circus",
+        "title": "THE NIGHT CIRCUS",
         "author": "Erin Morgenstern",
         "published": "September 13, 2011",
         "genre": "Fantasy",
@@ -49,7 +49,7 @@
     },
     {
         "id": 6,
-        "title": "The Picture of Dorian Gray",
+        "title": "THE PICTURE OF DORIAN GREY",
         "author": "Oscar Wilde",
         "published": "June 20, 1890",
         "genre": "Gothic Fiction",
@@ -58,7 +58,7 @@
     },
     {
         "id": 7,
-        "title": "The Great Gatsby",
+        "title": "THE GREAT GATSBY",
         "author": "F. Scott Fitzgerald",
         "published": "April 10, 1925",
         "genre": "American Fiction",
@@ -67,7 +67,7 @@
     },
     {
         "id": 8,
-        "title": "The Catcher in the Rye",
+        "title": "THE CATCHER IN THE RYE",
         "author": "J.D. Salinger",
         "published": "July 16, 1951",
         "genre": "American Fiction",

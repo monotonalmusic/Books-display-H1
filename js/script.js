@@ -46,8 +46,9 @@ let booksLeftTemp1 = (books) => {
         </div>
         <div class="left-book-bottom-1">
             <h2 class="left-title-1" id="title-${books.id}">${books.title}</h2>
-            <div class="left-info-and-about-1>
-                <div class="left-book-info-1" id="info-${books.id}>
+            <hr>
+            <div class="left-info-and-about-1">
+                <div class="left-book-info-1" id="info-${books.id}">
                     <h3 class="left-author-1" id="author-${books.id}">${books.author}</h3>
                     <h3 class="left-published-1" id="${books.published}">${books.published}</h3>
                     <h3 class="left-genre-1" id="${books.genre}">${books.genre}</h3>
@@ -75,8 +76,9 @@ let booksRightTemp1 = (books) => {
         </div>
         <div class="right-book-bottom-1">
             <h2 class="right-title-1" id="title-${books.id}">${books.title}</h2>
-            <div class="right-info-and-about-1>
-                <div class="right-book-info-1" id="info-${books.id}>
+            <hr>
+            <div class="right-info-and-about-1">
+                <div class="right-book-info-1" id="info-${books.id}">
                     <h3 class="right-author-1" id="author-${books.id}">${books.author}</h3>
                     <h3 class="right-published-1" id="${books.published}">${books.published}</h3>
                     <h3 class="right-genre-1" id="${books.genre}">${books.genre}</h3>
@@ -103,8 +105,8 @@ let booksLeftTemp2 = (books) => {
         </div>
         <div class="left-book-bottom-2">
             <h2 class="left-title-2" id="title-${books.id}">${books.title}</h2>
-            <div class="left-info-and-about-2>
-                <div class="left-book-info-2" id="info-${books.id}>
+            <div class="left-info-and-about-2">
+                <div class="left-book-info-2" id="info-${books.id}">
                     <h3 class="left-author-2" id="author-${books.id}">${books.author}</h3>
                     <h3 class="left-published-2" id="${books.published}">${books.published}</h3>
                     <h3 class="left-genre-2" id="${books.genre}">${books.genre}</h3>
@@ -132,8 +134,8 @@ let booksRightTemp2 = (books) => {
         </div>
         <div class="right-book-bottom-2">
             <h2 class="right-title-2" id="title-${books.id}">${books.title}</h2>
-            <div class="right-info-and-about-2>
-                <div class="right-book-info-2" id="info-${books.id}>
+            <div class="right-info-and-about-2">
+                <div class="right-book-info-2" id="info-${books.id}">
                     <h3 class="right-author-2" id="author-${books.id}">${books.author}</h3>
                     <h3 class="right-published-2" id="${books.published}">${books.published}</h3>
                     <h3 class="right-genre-2" id="${books.genre}">${books.genre}</h3>
