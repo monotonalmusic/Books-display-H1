@@ -173,7 +173,8 @@ function generateBooks2(books) {
 
 };
 
-generateBooks1(books);
+// generateBooks1(books);
+generateBooks2(books);
 
 
 

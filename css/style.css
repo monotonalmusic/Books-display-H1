@@ -127,3 +127,40 @@ h3 {
     flex-flow: column;
     gap: 5px;
 }
+
+/*left-2*/
+
+.left-book-2 {
+    height: 90dvh;
+    overflow: hidden;
+}
+
+.left-book-id-2 {
+    position: relative;
+    top: 150px;
+
+}
+
+.left-book-cover-2 {
+    height: 100dvh;
+    position: relative;
+    top: -195px;
+    right: -130px;
+    rotate: -25deg;
+    z-index: -1;
+}
+
+.left-book-bottom-2 {
+    position: relative;
+    top: -475px;
+}
+
+.left-title-2 {
+    width: 100px;
+}
+
+.left-info-and-about-2 {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
