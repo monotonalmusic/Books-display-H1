@@ -42,7 +42,7 @@ let booksLeftTemp1 = (books) => {
     `
         <div class="left-book-top-1">
             <h1 class="left-book-id-1">${books.id}</h1>
-            <img class="left-book-cover-1 id="${books.title}-cover" src="${books.pic}" alt="${books.title}-cover">
+            <img class="left-book-cover-1" id="cover-${books.id}" src="${books.pic}" alt="${books.title}-cover">
         </div>
         <div class="left-book-bottom-1">
             <h2 class="left-title-1" id="title-${books.id}">${books.title}</h2>
@@ -72,7 +72,7 @@ let booksRightTemp1 = (books) => {
     `
         <div class="right-book-top-1">
             <h1 class="right-book-id-1">${books.id}</h1>
-            <img class="right-book-cover-1 id="${books.title}-cover" src="${books.pic}" alt="${books.title}-cover">
+            <img class="right-book-cover-1" id="cover-${books.id}" src="${books.pic}" alt="${books.title}-cover">
         </div>
         <div class="right-book-bottom-1">
             <h2 class="right-title-1" id="title-${books.id}">${books.title}</h2>
@@ -101,7 +101,7 @@ let booksLeftTemp2 = (books) => {
     `
         <div class="left-book-top-2">
             <h1 class="left-book-id-2">${books.id}</h1>
-            <img class="left-book-cover-2 id="${books.title}-cover" src="${books.pic}" alt="${books.title}-cover">
+            <img class="left-book-cover-2" id="cover-${books.id}" src="${books.pic}" alt="${books.title}-cover">
         </div>
         <div class="left-book-bottom-2">
             <h2 class="left-title-2" id="title-${books.id}">${books.title}</h2>
@@ -130,7 +130,7 @@ let booksRightTemp2 = (books) => {
     `
         <div class="right-book-top-2">
             <h1 class="right-book-id-2">${books.id}</h1>
-            <img class="right-book-cover-2 id="${books.title}-cover" src="${books.pic}" alt="${books.title}-cover">
+            <img class="right-book-cover-2" id="cover-${books.id}" src="${books.pic}" alt="${books.title}-cover">
         </div>
         <div class="right-book-bottom-2">
             <h2 class="right-title-2" id="title-${books.id}">${books.title}</h2>
