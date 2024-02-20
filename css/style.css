@@ -131,11 +131,13 @@ h3 {
 /*left-2*/
 
 .left-book-2 {
+    background-color: #ECE0D1;
     height: 90dvh;
     overflow: hidden;
 }
 
 .left-book-id-2 {
+    padding: 15px;
     position: relative;
     top: 150px;
 
@@ -147,10 +149,11 @@ h3 {
     top: -195px;
     right: -130px;
     rotate: -25deg;
-    z-index: -1;
+
 }
 
 .left-book-bottom-2 {
+    padding: 15px;
     position: relative;
     top: -475px;
 }
@@ -162,5 +165,50 @@ h3 {
 .left-info-and-about-2 {
     height: 200px;
     width: 200px;
+    overflow: hidden;
+}
+
+/*right-2*/
+
+.right-book-2 {
+    background-color: #ECE0D1;
+    height: 90dvh;
+    overflow: hidden;
+}
+
+.right-book-id-2 {
+    text-align: right;
+    padding: 15px;
+    position: relative;
+    top: 300px;
+
+}
+
+.right-book-cover-2 {
+    height: 100dvh;
+    position: relative;
+    top: -110px;
+    left: -125px;
+    rotate: -26deg;
+
+}
+
+.right-book-bottom-2 {
+    text-align: right;
+    padding: 15px;
+    position: relative;
+    bottom: 800px;
+    width: 275px;
+}
+
+.right-title-2 {
+    text-align: right;
+    width: 100%;
+}
+
+.right-info-and-about-2 {
+    text-align: right;
+    height: 200px;
+    width: 100%;
     overflow: hidden;
 }
