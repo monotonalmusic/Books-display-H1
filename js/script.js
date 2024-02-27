@@ -1,20 +1,3 @@
-//making observer
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        console.log(entry)
-        if (entry.isIntersecting) {
-            entry.target.classList.add('show')
-        } else {
-            entry.target.classList.remove('show')
-        }
-    });
-});
-
-//selecting all hidden elements
-const hiddenElements = document.querySelectorAll('.hidden');
-//observing hidden elements
-hiddenElements.forEach((el) => observer.observe(el));
-
 async function getBooks() {
     try {
         const response = await fetch('/books.json');
@@ -40,7 +23,7 @@ let booksLeftTemp1 = (books) => {
     bookDiv.id = `book-${books.id}-div`;
     bookDiv.innerHTML = 
     `
-        <div class="left-book-top-1">
+        <div class="left-book-top-1 hidden">
             <h1 class="left-book-id-1">${books.id}</h1>
             <img class="left-book-cover-1" id="cover-${books.id}" src="${books.pic}" alt="${books.title}-cover">
         </div>
@@ -177,7 +160,7 @@ function generateBooks2(books) {
 
 
 
-generateBooks1(books);
+generateBooks2(books);
 
 function toggleViews () {
     console.log('hi')

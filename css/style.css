@@ -39,6 +39,7 @@ header {
 
 }
 
+
 .pretty-button {
 background-color: transparent;
 border: 1px solid black;
@@ -75,6 +76,7 @@ width: 150px;
     justify-content: center;
     align-items: center;
     gap: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -132,6 +134,11 @@ width: 150px;
 
 /*right-1*/
 
+.left-book-cover-1 {
+    width: 100%;
+    object-fit: cover;
+}
+
 .right-book-1 {
     display: grid;
     grid-template-columns: repeat(31, 1fr);
@@ -186,35 +193,49 @@ width: 150px;
 }
 
 .left-book-id-2 {
+    text-align: right;
     padding: 15px;
     position: relative;
-    top: 150px;
+    top: 350px;
 
 }
 
 .left-book-cover-2 {
     height: 100dvh;
     position: relative;
-    top: -230px;
-    right: -130px;
-    rotate: -25deg;
+    top: -110px;
+    left: -125px;
+    rotate: -26deg;
 
 }
 
 .left-book-bottom-2 {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
     padding: 15px;
     position: relative;
-    top: -475px;
+    bottom: 800px;
 }
 
 .left-title-2 {
-    width: 100px;
+    text-align: right;
+    width: 100%;
 }
 
 .left-info-and-about-2 {
-    height: 200px;
-    width: 200px;
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    text-align: right;
+    max-height: 300px;
+    width: 100%;
     overflow: hidden;
+}
+
+.left-about-2 {
+    text-align: right;
+    width: 50%;
 }
 
 /*right-2*/
@@ -229,7 +250,7 @@ width: 150px;
     text-align: right;
     padding: 15px;
     position: relative;
-    top: 300px;
+    top: 350px;
 
 }
 
@@ -262,7 +283,7 @@ width: 150px;
     flex-flow: column;
     align-items: end;
     text-align: right;
-    height: 200px;
+    max-height: 300px;
     width: 100%;
     overflow: hidden;
 }
@@ -271,4 +292,15 @@ width: 150px;
     height: max-content;
     text-align: right;
     width: 50%;
+}
+
+
+@media (min-width: 768px) {
+    p {
+        font-size: 1.5rem;
+    }
+
+    .left-book-id-2, .right-book-id-2 {
+        top: 400px;
+    }
 }
