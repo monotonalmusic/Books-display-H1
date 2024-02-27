@@ -141,7 +141,7 @@ let booksRightTemp2 = (books) => {
                     <h3 class="right-genre-2" id="${books.genre}">${books.genre}</h3>
                 </div>
                 <div class="right-about-2" id="about-${books.id}">
-                    <p>${books.about}</p>
+                    <p class="right-about-2-text">${books.about}</p>
                 </div>
             </div>
         </div>
@@ -152,6 +152,7 @@ let booksRightTemp2 = (books) => {
 
 
 function generateBooks1(books) {
+    mainDiv.innerHTML = '';
     books.forEach((book) => {
         if (book.id % 2 === 0) {
             booksRightTemp1(book);
@@ -163,6 +164,7 @@ function generateBooks1(books) {
 };
 
 function generateBooks2(books) {
+    mainDiv.innerHTML = '';
     books.forEach((book) => {
         if (book.id % 2 === 0) {
             booksRightTemp2(book);
@@ -173,8 +175,25 @@ function generateBooks2(books) {
 
 };
 
-// generateBooks1(books);
-generateBooks2(books);
+
+
+generateBooks1(books);
+
+function toggleViews () {
+    console.log('hi')
+    if (document.querySelector('.left-book-1')) {
+        console.log('generated 2')
+        generateBooks2(books);
+    }   
+    else {
+        console.log('generated 1')
+        generateBooks1(books);
+    }
+};
+
+let prettyButton = document.querySelector('.pretty-button');
+
+prettyButton.addEventListener('click', toggleViews);
 
 
 

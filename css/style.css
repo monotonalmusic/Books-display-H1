@@ -20,7 +20,56 @@ h3 {
     font-size: 1rem;
 }
 
+body {
+    background-image: url('../images/groovepaper.png');
+    background-repeat: repeat;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: -1;
+
+}
+
+.pretty-button {
+background-color: transparent;
+border: 1px solid black;
+border-radius: 8px;
+box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+box-sizing: border-box;
+color: #0f1111;
+cursor: pointer;
+display: inline-block;
+font-size: 13px;
+line-height: 29px;
+padding: 0 10px 0 11px;
+position: relative;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+vertical-align: middle;
+width: 150px;
+}
+
+.pretty-button:hover {
+    transform: scale(1.1);
+}
+
+#header-text {
+    text-align: center;
+}
+
 .main-div {
+    margin-top: 300px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -146,7 +195,7 @@ h3 {
 .left-book-cover-2 {
     height: 100dvh;
     position: relative;
-    top: -195px;
+    top: -230px;
     right: -130px;
     rotate: -25deg;
 
@@ -194,11 +243,13 @@ h3 {
 }
 
 .right-book-bottom-2 {
-    text-align: right;
+    display: flex;
+    flex-flow: column;
+    align-items: end;
     padding: 15px;
     position: relative;
     bottom: 800px;
-    width: 275px;
+    /* width: 50%; */
 }
 
 .right-title-2 {
@@ -207,8 +258,17 @@ h3 {
 }
 
 .right-info-and-about-2 {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
     text-align: right;
     height: 200px;
     width: 100%;
     overflow: hidden;
+}
+
+.right-about-2 {
+    height: max-content;
+    text-align: right;
+    width: 50%;
 }
