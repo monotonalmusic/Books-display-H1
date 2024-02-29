@@ -43,6 +43,8 @@ header {
 
 }
 
+/*button*/
+
 
 .pretty-button {
 background-color: transparent;
@@ -115,7 +117,7 @@ width: 150px;
 
 .left-book-cover-1 {
     grid-column: 9 / 18;
-    grid-row: 3 / 14;
+    grid-row: 3 / 12;
 
 }
 
@@ -138,7 +140,7 @@ width: 150px;
 
 /*right-1*/
 
-.left-book-cover-1 {
+.right-book-cover-1 {
     width: 100%;
     object-fit: cover;
 }
@@ -167,7 +169,7 @@ width: 150px;
 
 .right-book-cover-1 {
     grid-column: 1 / 10;
-    grid-row: 3 / 14;
+    grid-row: 3 / 12;
 
 }
 
