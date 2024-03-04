@@ -9,7 +9,8 @@ book1.booksLeftTemp1 = (books) => {
     bookDiv.id = `book-${books.id}-div`;
     bookDiv.innerHTML = 
     `
-        <div class="left-book-top-1 hidden">
+        <button class="add-favorites-button pretty-button">*FAVORITE*</button>
+        <div class="left-book-top-1">
             <h1 class="left-book-id-1">${books.id}</h1>
             <img class="left-book-cover-1" id="cover-${books.id}" src="${books.pic}" alt="${books.title}-cover">
         </div>
@@ -62,3 +63,4 @@ book1.booksRightTemp1 = (books) => {
 };
 
 export default book1;
+
